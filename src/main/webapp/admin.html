@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin-Login</title>
+  <link rel="stylesheet" href="admin1.css">
+  
+</head>
+
+<body>
+  <div id="wrapper">
+    <div class="container">
+      <h1>ADMIN LOGIN</h1>
+      <div class="main">
+        <div class="admin-image">
+          <img src="./images/admin.png" alt="">
+        </div>
+        <form action="Login_op" method="get" class="login-from">
+          <div class="form__group field">
+            <input type="text" class="form__field" placeholder="Name" name="username" id='name' required />
+            <label for="name" class="form__label">UserName</label>
+          </div>
+          <div class="form__group field">
+            <input type="password" class="form__field" placeholder="Name" name="password" id='name' required />
+            <label for="name" class="form__label">Password</label>
+          </div>
+          <button type="submit" name="login-button" class="my-btn">Log In</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="https://kit.fontawesome.com/4f52b70ee0.js" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,121 @@
+@charset "ISO-8859-1";
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap");
+
+* {
+    margin: auto;
+    padding: 0;
+    font-family: "Be Vietnam Pro", sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    color: white;
+    background-color: #dd7009;
+}
+
+#wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.image-1,
+.image-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1 {
+    text-align: center;
+    padding: 25px 25px;
+}
+
+.about-para {
+    margin: auto;
+    margin-top: 2rem;
+    width: 500px;
+}
+
+.about-para p {
+    text-align: center;
+    font-weight: 500;
+}
+
+.searching {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 0.1rem;
+    margin-top: 50px;
+}
+
+.searching .to-do-input {
+    padding: 0.5rem 1rem;
+    height: 35px;
+    outline: none;
+    border: none;
+    width: 390px;
+    font-size: 1.15rem;
+    margin: 0.25rem;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+}
+
+.searching .add-btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: #ef9744;
+    color: #fff;
+    margin: 0.2px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.add-btn i {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    width: 460px;
+    object-fit: cover;
+}
+
+.my-img {
+    margin-top: 40px;
+    
+}
+
+.last-img{
+    margin-bottom: 10px;
+}
+
+.top-img{
+    margin-top: 10px;
+}
+
+.admin{
+    margin-top: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.admin:hover{
+    opacity: 0.7;
+}
